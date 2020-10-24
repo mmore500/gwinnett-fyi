@@ -1,0 +1,5 @@
+iterpop==0.3.4
+keyname==0.1.0
+osfclient==0.0.3
+pandas==1.1.2
+pyyaml==5.3.1
