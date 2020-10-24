@@ -1,0 +1,15 @@
+Package: g-fyi
+Title: Gw____tt Schools Covid Dashboard
+Version: 0.0
+Authors@R: person("g-fyi", "admin", email = "admin@gw____tt.fyi",
+                  role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+Depends: R (>= 3.1.0)
+Imports:
+  shiny,
+  shinythemes,
+  DT,
+  plotly,
+  zoo
+License: MIT License
+LazyData: true

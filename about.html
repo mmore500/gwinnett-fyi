@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>COVID 19 DASHBOARD</title>
+  <meta charset="utf-8">
+  <style>
+  .column {
+    float: left;
+    width: 33.33%;}
+
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .column2 {
+    float: left;
+    margin-right: 150px;
+    width: 33.33%;  
+    text-align: center;
+  }
+  
+  .text-column {
+    float: left;
+    width: 90%;
+    padding-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container" style="text-align: justify;">
+  <h1>Understanding the Data</h1>
+  
+<br>
+<p><b>1. Positive Case</b> &ndash; A person who receives a lab-confirmed positive COVID-19 test result, or a physician&rsquo;s diagnosis of COVID-19.</p>
+
+<p><b>2. Suspected Case</b> &ndash; A person who displays any of the common symptoms of COVID-19 but is waiting to be tested or to receive the results of a test already administered. These common symptoms include a fever of 100.4 degrees or higher, unusual fatigue, muscle pain, coughing, sudden loss of taste or smell, difficulty breathing, prolonged headache, and sore throat, that do not appear to be caused by another illness. A person who is a suspected case displays symptoms but has not tested positive for COVID-19.</p>
+
+<p><b>3. Close Contact</b> &ndash; A person who is not ill but who has been exposed to a positive COVID-19 case in a manner that could make the person susceptible to contracting the virus. Examples include a person who:
+  <ul>
+  <li>Lives with someone who tested positive for COVID-19.</li>
+  <li>Was face-to-face with a positive case, while wearing or not wearing a mask or face covering, fewer than 6 feet apart for 15 minutes or longer.</li>
+  <li>Had direct physical contact with a positive case, such as sharing a drink.</li>
+  <li>Was exposed to the bodily fluids of a person with COVID-19 (for example, touched a facial tissue used by an infected person).</li>
+</ul>
+</p>
+<p><b>4. New Cases</b> &ndash; The number of new cases reported for a specific day. This chart does not include all schools, only those reporting a new case for that day.</p>
+
+<p><b>5. Total Active Cases</b> &ndash; This chart reflects total active cases by school based on the expected return dates of those affected. It does not reflect those who are cleared medically to return to school/work before that expected date, or those who are out beyond their expected return date. Information about when an individual actually returns is tracked manually at the school or workplace and is not captured in this report.</p>
+
+<h1>Understanding the Graphs</h1>
+<br>  
+<b>1. Overview Tab</b>
+<div class="row">
+  <div class="column">
+      <h5 style="text-align: center;"> Total Daily Active Cases</h5>
+      <img src="overview1.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      
+      <p>This graph depicts the total active cases in the limited window that GCPS reports, as defined by 'Total active cases' above. It is useful for monitoring patterns relative to those of the county at large.</p>
+  </div>
+  </div>
+  
+  <div class="column">
+      <h5 style="text-align: center;">Cummulative Distribution of Total Active Cases</h5>
+      <img src="overview2.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This graph shows the relative distributions of suspected cases, positive cases, and close contacts over time. It is useful for assessing contact tracing efficacy.</p>
+  </div>
+  </div>
+  <div class="column">
+      <h5 style="text-align: center;">Days with Most Reported Active Cases  </h5>
+      <img src="overview3.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This graaph shows the days with the most active reported cases; these dates often will correspond with super-spreader events, such as those seen in several sports events and other gatherings across the county.</p>
+  </div>
+</div>
+</div>
+
+<br><br>
+
+
+<b>2. Cluster Tab</b>
+<div class="row">
+  <div class="column">
+      <h5 style="text-align: center;"> Total Active Cases by Cluster</h5>
+        <img src="cluster3.png" style="width:350px; height:200px;">
+        <div class="text-column">
+      <p>This information allows you to sort by active cases. Should a cluster report higher cases relative to neighbors, it may be a result of better reporting of cases in that cluster relative to those surrounding or a recent super-spreader event.</p>
+  </div>
+  </div>
+  
+  <div class="column">
+      <h5 style="text-align: center;">Total Active Cases By Cluster</h5>
+      <img src="cluster1.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This interactive graph lets you compare the clusters against one another over time. This information lets you know whether a cluster is on a good trajectory and what that trajectory is relative to other clusters.</p>
+  </div>
+  </div>
+  
+  <div class="column">
+      <h5 style="text-align: center;">Specific Cluster Daily Cases</h5>
+      <img src="cluster2.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This graph lets you comare the and also to monitor the reported outcomes and contact tracing (or lack thereof) from previous outbreaks.</p>
+      </div>
+  </div>
+  
+</div>
+
+<br><br>
+<b>3. School Tab</b>
+<div class="row">
+  <div class="column">
+      <h5 style="text-align: center;">Covid Cases in Schools</h5>
+      <img src="school3.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This information lets you observe the ratio of Covid cases (postive + suspected) compared to close contacts. This can help you make inferences about how big a reported exposure may be and whether all parties have been notified. Generally, a positive case will have far more close-contacts than a close-contact will repeatedly contact separate Covid-positive cases.</p>
+  </div>
+  </div>
+  
+  <div class="column">
+      <h5 style="text-align: center;">Positive and Suspected Cases vs Close Contacts</h5>
+      <img src="school1.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This interactive graph lets you compare schools against one another over time. This information lets you know whether a school is on a good trajectory and what that trajectory is relative to other schools, and combined with the cluster data, can help inform the potential degree of reported spread in the local community (i.e. between schools within a cluster).</p>
+  </div>
+  </div>
+  
+    <div class="column">
+      <h5 style="text-align: center;">Percentage of Active Cases in School</h5>
+      <img src="school2.png" style="width:350px; height:200px;">
+      <div class="text-column">
+      <p>This pie chart parses out the three case types (positive, suspected, and close-contacts). If the close-contacts are relatively low compared to the true cases, this can be indicative of underreporting; if over time this trend continues along with cases rising, asymptomatic spread is likely, assuming testing data is being reported accurately.</p>
+  </div>
+  </div>
+</div>
+
+
+  
+
+
+
+</div>
+</body>
+</html> 

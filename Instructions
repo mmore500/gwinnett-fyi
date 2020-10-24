@@ -1,0 +1,22 @@
+1. ADD TEXT TO YOUR GRAPHS:
+	In order to add text below your graphs, you need to open "about.html" (You can open it using notepad)
+	Then, locate the places where it is written "TEXT TEXT TEXT TEXT" and change them according to your wish.
+	
+2. UPDATING DATA
+	Locate and delete "new_cases.csv" from "Monitor-Covid" folder. In the same folder place your new csv file with the same name "new_cases.csv"
+	Refresh the page and it should get the new data.
+
+3. RUNNING LOCALLY:
+	Install R language and Rstudio (if not installed)
+	Install these libraries by writting install.packages("LibraryName") "shiny", "shinythemes", "DT", "plotly", "zoo"
+	Then, open R studion and on the tabs select Session -> Set Working Directory -> Choose Directory and select Monitor-Covid folder.
+	Then, on the tabs select File -> Open File and select "global.R" or "Server.R". 
+	Once you have opened one of the selected files, you will see a green button "Run App" above your code tab. Select it and the app should run.
+
+4. DEPLOYING IN SHINYAPPS.IO
+	Create an account here: https://www.shinyapps.io/.
+	Then, go to Dashboard -> Account -> Tokens. If there are not tokens, add a token and copy your secret token.
+	Go to Rstudio's tabs and look for Tools -> Global Options -> Publishing and connect it with shinyapps by providing your secret token.
+	Again, just above your code, next to the "Run App" button is a blue button, press it and it should automatically deploy the app. 
+	After this point, you do not need to visit the website anymore. Whenever you make a change in your code, press the deploy button and it should update the page automatically.
+
