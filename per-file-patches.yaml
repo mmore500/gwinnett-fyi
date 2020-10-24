@@ -1,0 +1,9 @@
+day=10+month=9+name=new-by-school+year=2020+ext=.csv:
+  - find: 'HS,0,0,1,1'
+    replace: 'Cooper ES,0,0,1,1'
+  - find: 'Collins Hill Cooper ES,0,0,1,1'
+    replace: 'Collins Hill HS,0,0,1,1'
+  - find: 'Mathema,1,0,2,ES'
+    replace: 'Harmony ES,1,0,2,3'
+  - find: 'Parkview Cooper ES,0,0,1,1'
+    replace: 'Parkview HS,0,0,1,1'
