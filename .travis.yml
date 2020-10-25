@@ -4,6 +4,10 @@ latex: false
 language: r
 r: release
 
+branches:
+  only:
+    - built-app
+
 warnings_are_errors: false
 
 cache:
