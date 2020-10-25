@@ -9,5 +9,8 @@ python3 join-across-time.py input/*active-by-school*.csv
 python3 join-across-time.py input/*new-by-school*.csv
 
 # upload files to OSF
+osf -u "$OSF_USERNAME" -p q2f36 remove active_cases.csv
+osf -u "$OSF_USERNAME" -p q2f36 remove new_cases.csv
+
 osf -u "$OSF_USERNAME" -p q2f36 upload output/active_cases.csv active_cases.csv
 osf -u "$OSF_USERNAME" -p q2f36 upload output/new_cases.csv new_cases.csv
