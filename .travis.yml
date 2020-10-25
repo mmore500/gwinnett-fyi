@@ -17,19 +17,11 @@ git:
   depth: false
 
 r_packages:
-  - gapminder
-  - ggthemes
-  - maps
-  - RColorBrewer
-  - rgeos
-  - rnaturalearth
-  - rnaturalearthdata
-  - rsconnect
   - shiny
-  - shinyAce
-  - survminer
-  - survival
-  - tidyverse
+  - shinythemes
+  - DT
+  - plotly
+  - zoo
 
 script:
   - R -f deploy.R
