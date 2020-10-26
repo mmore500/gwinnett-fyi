@@ -9,7 +9,7 @@
 3. RUNNING LOCALLY:
 	Install R language and Rstudio (if not installed)
 	Install these libraries by writting install.packages("LibraryName") "shiny", "shinythemes", "DT", "plotly", "zoo"
-	Then, open R studion and on the tabs select Session -> Set Working Directory -> Choose Directory and select Monitor-Covid folder.
+	Then, open R studio and on the tabs select Session -> Set Working Directory -> Choose Directory and select Monitor-Covid folder.
 	Then, on the tabs select File -> Open File and select "global.R" or "Server.R". 
 	Once you have opened one of the selected files, you will see a green button "Run App" above your code tab. Select it and the app should run.
 
