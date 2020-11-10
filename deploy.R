@@ -12,4 +12,4 @@ setAccountInfo(name   = Sys.getenv("shinyapps_name"),
                secret = Sys.getenv("shinyapps_secret"))
 
 # Deploy the application.
-deployApp()
+deployApp(appName = "gwinnett-fyi")
