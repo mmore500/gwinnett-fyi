@@ -1,6 +1,6 @@
 ## Gw____tt COVID-19 Dashboard
 
-This repo scrapes data from [PDF reports](https://bit.ly/2HpqhaY) put together by the [Gw____tt School District](https://bit.ly/2HyCJoi), packages it with a shiny web app built by a collaborator, then deploys it to <https://shinyapps.io>.
+This repo scrapes data from [PDF reports](https://bit.ly/2HpqhaY) (now also located [here](https://bit.ly/36If2To)) put together by the [Gw____tt School District](https://bit.ly/2HyCJoi), packages it with a shiny web app built by a collaborator, then deploys it to <https://shinyapps.io>.
 We also automatically upload up-to-date consolidated datasets to [the project's Open Science Framework page](https://osf.io/q2f36/) --- if you like, hop over there to grab a copy of the raw data.
 
 Check out live the Covid Dashboard app [here](https://bit.ly/3dYitII).
