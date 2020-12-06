@@ -7,3 +7,7 @@ day=10+month=9+name=new-by-school+year=2020+ext=.csv:
     replace: 'Harmony ES,1,0,2,3'
   - find: 'Parkview Cooper ES,0,0,1,1'
     replace: 'Parkview HS,0,0,1,1'
+
+day=11+month=18+name=new-by-school+year=2020+ext=.csv:
+  - find: 'Trickum MS,1,0,0,1'
+    replace: 'Trickum MS,1,0,0,1\nWhite Oak ES, 1, 0, 1, 2'

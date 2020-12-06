@@ -66,7 +66,15 @@ for df in dataframes:
     grouped_by_dataset[ dataset_counter ].append( df )
 
     # if the 0th column contains final 'Total' entry, next entry is new dataset
-    dataset_counter += ( 'Total' in df.iloc[-1, 0] )
+    # or it contains Woodward Mill ES (and Total has wrapped to next page)
+    dataset_counter += (
+        'Woodward Mill ES' in df.iloc[-1, 0]
+        or 'Total' in df.iloc[-1, 0]
+    )
+
+    # special case
+    if '11.18.2020-COVID-19-Reporting-Daily-Report.eq.pdf' in source_filename:
+        dataset_counter += 'Trickum MS' in df.iloc[-1, 0]
 
 # concatenate dataframes belonging to the same dataset together
 datasets = [
@@ -76,7 +84,7 @@ datasets = [
 
 # save each dataset to a csv file
 for name, dataset in zip(
-        ["district-new", "new-by-school", "active-by-school"],
+        ["district-new", "new-by-school", "active-by-school", "active-by-office"],
         datasets
     ):
 
