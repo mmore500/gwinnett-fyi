@@ -11,3 +11,7 @@ day=10+month=9+name=new-by-school+year=2020+ext=.csv:
 day=11+month=18+name=new-by-school+year=2020+ext=.csv:
   - find: 'Trickum MS,1,0,0,1'
     replace: 'Trickum MS,1,0,0,1\nWhite Oak ES, 1, 0, 1, 2'
+
+day=15+month=12+name=new-by-school+year=2020+ext=.csv:
+  - find: '^,5,0,0,5$'
+    replace: 'Trip ES,5,0,0,5'
