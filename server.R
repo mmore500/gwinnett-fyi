@@ -11,7 +11,7 @@ shinyServer(function(input, output, session) {
     # TO BE CONSISTENT CHANGE THE NAMES OF THE COLUMNS
     colnames(data) = c("School", "CloseContact", "PositiveCase", "SuspectedCase", "Total", "Date", "Cluster")
     # CONVERT THE DATE COLUMN TO DATE FORMAT
-    data$Date <- as.Date(data$Date, format="%m/%d/%y")
+    data$Date <- as.Date(data$Date, format="%m/%d/%Y")
     # SORT DATA ACCORDING TO DATA
     data = data[order(data$Date),]
     # REMOVING TOTAL COLUMN
