@@ -44,6 +44,6 @@ subprocess.call([
     'sed',
     '-E',
     '-i',
-    's/^Science(cid:853) and Technology,/"Gwinnett School of Mathematics, Science, and Technology",/g',
+    's/^Science\(cid:853\) and Technology,/"Gwinnett School of Mathematics, Science, and Technology",/g',
     target_filename,
 ])
