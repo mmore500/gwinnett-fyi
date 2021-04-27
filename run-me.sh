@@ -9,7 +9,7 @@ function max4 {
 
 pip3 install -r requirements.txt
 
-git clone https://github.com/mmore500/g-fyi -b data-joiner output
+git clone https://github.com/mmore500/g-fyi -b data-joiner output --depth 1
 
 mkdir -p output/input
 
